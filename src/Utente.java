@@ -55,7 +55,7 @@ public class Utente implements Runnable
 					break;
 				}
 				// cerca il nome nella rubrica
-				f = new FileReader("agenda.txt");
+				f = new FileReader("c:\\temp\\agenda.txt");
 				fIN = new BufferedReader(f);
 				c = new Contatto();
 				boolean trovato = false;
